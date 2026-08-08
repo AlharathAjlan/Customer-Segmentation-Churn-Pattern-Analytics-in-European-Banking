@@ -63,20 +63,7 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-The app expects a CSV file in the project folder with the following columns:
 
-```
-CustomerId, Surname, CreditScore, Geography, Gender, Age, Tenure,
-Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited
-```
-
-Update the `DATA_PATH` variable near the top of `app.py` to match your filename.
-
-## Data Privacy Note
-
-⚠️ **The raw customer dataset is not included in this repository** and should never be committed to version control, especially before deploying to a public host. See `.gitignore`.
-
-If deploying to a public free host (e.g. Streamlit Community Cloud), do not expose row-level customer records (names, IDs) publicly. This dashboard drops `Surname` during load and is intended to be deployed with anonymized or aggregated data only — review any `st.dataframe(...)` calls showing row-level records before making the app public.
 
 ## Project Structure
 
@@ -86,7 +73,7 @@ churn_dashboard/
 ├── requirements.txt     # Python dependencies
 ├── README.md
 ├── .gitignore
-└── churn_data.csv       # (not committed — add your own)
+└── churn_data.csv       # Dataset 
 ```
 
 ## Deliverables
