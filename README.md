@@ -49,7 +49,7 @@ All pages respond live to the global sidebar filters (Geography, Gender, Age Gro
 
 ```bash
 # clone the repo
-git clone <your-repo-url>
+git clone https://github.com/AlharathAjlan/Customer-Segmentation-Churn-Pattern-Analytics-in-European-Banking.git
 cd churn_dashboard
 
 # create and activate a virtual environment
