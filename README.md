@@ -1,6 +1,6 @@
 # Bank Customer Churn Segmentation Analytics
 
-Interactive Streamlit dashboard for analyzing retail banking customer churn through segmentation across geography, age, tenure, credit score, balance, and product usage. Built as part of a Data Analytics internship project.
+Interactive Streamlit dashboard for analyzing retail banking customer churn through segmentation across geography, age, tenure, credit score, balance, and product usage. Built as part of a Machine Learning internship project.
 
 ## Overview
 
