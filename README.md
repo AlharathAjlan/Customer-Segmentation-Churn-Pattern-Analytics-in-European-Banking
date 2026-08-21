@@ -50,7 +50,7 @@ All pages respond live to the global sidebar filters (Geography, Gender, Age Gro
 ```bash
 # clone the repo
 git clone https://github.com/AlharathAjlan/Customer-Segmentation-Churn-Pattern-Analytics-in-European-Banking.git
-cd churn_dashboard
+cd Customer-Segmentation-Churn-Pattern-Analytics-in-European-Banking
 
 # create and activate a virtual environment
 python3 -m venv venv
@@ -78,7 +78,7 @@ churn_dashboard/
 
 ## Deliverables
 
-- Research paper (EDA, segmentation analysis, insights, recommendations)
+- Report paper (EDA, segmentation analysis, insights, recommendations)
 - This Streamlit dashboard (live analytics)
 - Executive summary for stakeholders
 
